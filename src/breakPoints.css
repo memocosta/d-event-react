@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1200px) {
+  /* .ui.container {
+    width: 1500px !important;
+  } */
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .event-goals .progress {
+    margin-bottom: 15px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar {
+    transition: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar-animated {
+    animation: none;
+  }
+}
